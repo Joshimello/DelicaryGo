@@ -40,6 +40,7 @@ export const load = ({ params }) => {
         open: '開始營業時間：周一下午 12:00',
         website: 'https://www.facebook.com/....',
         phone: '09-12345678',
+        shorts: "https://www.youtube.com/embed/O_eR2xUQOP8?mute=1"
       },
 
       {
@@ -81,6 +82,7 @@ export const load = ({ params }) => {
         open: '開始營業時間：周一下午 12:00',
         website: 'https://www.facebook.com/....',
         phone: '09-12345678',
+        shorts: "https://www.youtube.com/embed/8qxf6l-TUaU?mute=1"
       }
     ]
   }

@@ -51,8 +51,13 @@
     <div class="h-full overflow-auto" out:fly={{ x: -200, opacity: 0, easing: quintOut }} in:fly={{ x: 200, opacity: 0, easing: quintOut, delay: 500 }}>
     {#if tab == 0}
       <div class="h-fullrounded-2xl">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Ct1EeH8Nlu2/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-        <div class="pb-100vh"></div>
+        <iframe class="w-full h-full"
+src={shops[id].shorts}
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen></iframe>
+  <div class="h-50vh"></div>
       </div>
     {:else if tab == 1}
       <div class="h-full flex flex-col gap-4 pb-100vh">
