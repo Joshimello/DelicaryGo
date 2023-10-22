@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Source Han Serif TC Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(/SourceHanSerifTW-VF.ttf.woff2) format('woff2-variations');
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
